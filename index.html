@@ -58,8 +58,8 @@
           class="w-full border-2 border-gray-200 rounded p-3 text-gray-dark mr-2 focus:outline-none">
           <option value="100">100x100</option>
           <option value="200">200x200</option>
-          <option value="300">300x300</option>
-          <option value="400" selected>400x400</option>
+          <option value="300" selected>300x300</option>
+          <option value="400">400x400</option>
           <option value="500">500x500</option>
           <option value="600">600x600</option>
           <option value="700">700x700</option>
@@ -78,7 +78,9 @@
     </div>
 
     <!-- Generated QR Code -->
-    <div class="max-w-5xl m-auto flex flex-col text-center align-center justify-center mt-20">
+    <div 
+    id="generated"
+    class="max-w-5xl m-auto flex flex-col text-center align-center justify-center mt-20">
       
       <!-- Spinner -->
       <div id="spinner" role="status">
